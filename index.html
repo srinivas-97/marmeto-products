@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>SELECT YOUR CHOICE</h1>
+            <nav>
+                <div class="tabs">
+                    <button class="tab" id="Men">Men</button>
+                    <button class="tab" id="Women">Women</button>
+                    <button class="tab" id="Kids">Kids</button>
+                </div>
+            </nav>
+        </header>
+       <main>
+        <section style="display:none">
+        <div id="products-section-template" class="" >
+            <div class="image-section">
+                <img src="https://plus.unsplash.com/premium_photo-1682090786689-741d60a11384"
+                >
+            </div>
+            <div>
+                <p><span class="product-title"></span><span class="vendor"></span></p>
+                <p><span class="price"></span><span class="compare-at-price"></span><span class="discount">50% off</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        </section>
+        <section id = "products-section">
+
+        </section>
+        <section>
+            <div id="loader" class="loader" style="display:none">
+            <h1> Loading ... </h1>
+            </div>
+        </section>
+       </main>
+        <script src="index.js"></script>
+    </body>
+</html>
