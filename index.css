@@ -60,7 +60,8 @@ main {
 
 .vendor {
     display: inline-block;
-    width: 100px;
+    width: 60px;
+    font-size: 12px;
     overflow: hidden;
     white-space:nowrap;
     text-overflow:ellipsis;
@@ -74,6 +75,10 @@ main {
 
 .discount {
     color: #FF0000;
+}
+
+.dot{
+    padding-right:10px;
 }
 
 .add-to-cart {
