@@ -35,9 +35,6 @@ main {
 }
 
 .products-section-item {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
     height:300px; 
     width:200px;
 }
@@ -93,8 +90,10 @@ main {
       flex-direction: column;
     }
     .products-section-item {
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
     }
     .image-section img {
         padding-right: 10px;
